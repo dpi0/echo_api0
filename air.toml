@@ -1,0 +1,5 @@
+root = "."
+include = ["*.go"] # Files to watch for changes
+exclude = []
+build = "go build -o ./server ./server.go" # Command to build the server
+run = "./server" # Command to start the server
